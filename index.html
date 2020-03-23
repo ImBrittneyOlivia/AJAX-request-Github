@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <!-- google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Aclonica|DM+Serif+Text|Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome-->
+    <script src="https://use.fontawesome.com/6b269bbaf5.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <section class="container">
+      <div class="jumbotron jumbotron-fluid bg-primary text-white">
+        <div class="container">
+          <h1 class="display-4">Brittney Stuart</h1>
+          <p class="lead">Full Stack Web Developer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- main container  -->
+    <div class=" main-container">
+      <!-- image and skills-->
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./images/me.png" alt="me" class="img-fluid" />
+          </div>
+          <div class="col-md-6 text-white text-justify">
+            <p>
+              My name is Brittney. I am a Full Stack Web Developer located in
+              Pheonix, Arizona. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. At accusamus iusto asperiores praesentium vitae
+              reprehenderit voluptas, ipsum molestias. Nulla voluptates labore
+              possimus voluptate ratione laudantium neque reiciendis at quos
+              itaque.
+            </p>
+
+            <iframe
+              src="https://giphy.com/embed/56JFVV97BIPTi"
+              width="480"
+              height="360"
+              frameborder="0"
+              class="giphy-embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- repos-->
+      <section class="container mt-4">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-white">My skills as a software developer</h1>
+            <br />
+            <ul class="list-group">
+              <li class="list-group-item mt-4 mb-4">
+                I understand the foundations needed for building a website with
+                HTML, CSS, and JavaScript. I understand the additional items
+                that make editing your websites much easier with BootStrap 3,
+                FlexBox, and jQuery.In addition to the above, I can send http
+                requests using AJAX to request information from API's and JSON
+                documents (objects) by parsing them into vanilla JS. Here I have
+                included my gitHub repos for reference to my skills.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <button onclick="loadRepo()" class="btn btn-info">
+              Push for repos
+            </button></br>
+            <button 
+            class="btn btn-info mt-3"
+            onclick="window.location.href = 'https://github.com/ImBrittneyOlivia';">Click Here For Github Account</button>
+          </div>
+          <div class="col-md-6">
+            <ul id="repos" class="list-group"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="container">
+        <div
+          class="row justify-content-around align-items-center mt-5 bg-primary"
+        >
+          <a href="#"><i class="fa fa-facebook-f fa-2x text-white"></i></a>
+          <a href="#"><i class="fa fa-instagram fa-2x text-white"></i></a>
+          <a href="#"><i class="fa fa-linkedin fa-2x text-white"></i></a>
+          <a href="#"><i class="fa fa-github fa-2x text-white"></i></a><br />
+          <div class="py-3 text-white">
+            © 2020 Copyright:
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
